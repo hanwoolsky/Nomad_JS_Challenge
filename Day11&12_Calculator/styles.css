@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+  
+.cal > button {
+    width: 140px;
+    height: 60px;
+    margin: 5px;
+  
+    background-color: #302e2e;
+    color: white;
+  
+    text-align: center;
+    font-size: 24px;
+    border: 0;
+    outline: 0;
+  
+    border-radius: 10px 10px 10px 10px;
+}
+  
+.cal {
+    display: flex;
+    flex-direction: row;
+  
+    flex-wrap: wrap;
+    cursor: pointer;
+  
+    width: 600px;
+}
+  
+.cal .screen {
+    width: 440px;
+    height: 60px;
+    text-align: right;
+    background-color: black;
+}
+  
+.cal .zero {
+    width: 290px;
+    height: 60px;
+}
+  
+.cal .char {
+    background-color: #d18007;
+}
+  
+.cal .C {
+    background-color: #928f8b;
+}
+  
